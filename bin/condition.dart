@@ -1,6 +1,6 @@
 void main () {
  //if-else
-  int age = 0;
+  int age = 20;
   bool vote = voteFunc(age);
   print(vote);
 
