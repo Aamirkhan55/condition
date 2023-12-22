@@ -4,7 +4,7 @@ void main () {
 }
 
 String voteFunct(int age) {
-  String result = age >= 18 && age < 100 ? 'You Can vote' : age >= 100 ? 'You are alive ' :
+  String result = age >= 18 && age < 100 ? 'You Can vote' : age >= 100 ? 'You are alive..?' :
   age < 18 ? 'You are note alligible for vote' : 'You cannot poll the vote';
   return result;
 }
